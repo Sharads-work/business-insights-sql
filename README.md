@@ -1,5 +1,5 @@
-# manual-japanese-cars-sql-project
-8 real-world business questions answered using SQL
+# Manual Japanese Cars Business Insights (SQL Project)
+8 real-world business questions answered using SQL for a Japanese manual car dealership
 
 ## Project Overview
 
