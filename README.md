@@ -4,41 +4,40 @@ I answered 8 real-world business questions using SQL for a Japanese manual car d
 
 ## Project Overview
 
-This project simulates a car dealership specializing in newly selling older Japanese manual transmission cars due to the rise of EVs and fall of gasoline vehicles. It showcases SQL skills by answering business-critical questions through a cleaned and normalized dataset.
+This project simulates a car dealership that sells older Japanese manual-transmission cars amid the shift to EVs. It demonstrates SQL proficiency by transforming raw data into insights through normalization, cleaning, and complex querying.
 
 ## Project Objective
 
-To demonstrate SQL proficiency through realistic business queries about Japanese manual cars — including performance analysis, trim comparisons, engine reuse, and fuel efficiency.
+To apply core SQL concepts by analyzing a real-world-style dataset of Japanese manual cars — focusing on trims, performance, engine reuse, and fuel efficiency.
 
 ## Data Overview
 
-- Source: Custom-made dataset in Excel; collected from multiple sources like Edmunds, Cars, & Cars and Drivers
-- Years covered: 1995–2012
+- Source: Custom Excel dataset; (compiled from Edmunds, Cars.com, Car and Driver, etc.)
+- Years covered: 1993–2012
 - Focus: Manual transmission trims only
-- Automatic trims are included for context but excluded from analysis due to business mission
+- Automatic trims are included for context but excluded from core analysis
 
 ## Data Cleaning Summary
 
 - Removed duplicates
-- Normalized trim and model info into separate tables
-- Filled in missing or repeated curb weights where possible
-- Only included **manual transmission** cars for analysis
-- Filtered out automatic transmissions to align with the company’s manual-only focus.
+- Normalized make, models, trims, engines, and specs into separate tables
+- Filled in missing/redundant curb weights
+- Filtered out automatic transmissions to reflect the dealership’s business model
 
 ## Business Questions Answered
 
 1. List all trims with MPG above the fleet average MPG.
 2. Which trim of each model offers the best Horsepower-to-Curb Weight ratio?
-3. Categorize trims by power-to-weight ratio.
-4. We'd like to advertise our fastest and oldest cars, one from each model to show off our variety.
-5. Are there any duplicate trim names with the same model/year but different specs?
-6. Do any trims ever use multiple engines across different years?
-7. Which trims had the highest combined MPG in their launch year?
-8. Which trims had a performance-to-MPG ratio higher than the average across all years?
+3. Categorize trims by power-to-weight class.
+4. Identify the fastest and oldest trim per model for marketing.
+5. Are there duplicate trim names with the same model/year but different specs?
+6. Do any trims reuse different engines across years?
+7. Which trims had the highest MPG in their launch year?
+8. Which trims performed better than the fleet average in performance-to-MPG ratio?
 
 ## Technologies Used
 
-- SQL
+- SQL (T-SQL)
 - Relational Database Design
 - Window Functions (ROW_NUMBER, RANK)
 - Common Table Expressions (CTEs)
@@ -53,7 +52,6 @@ To demonstrate SQL proficiency through realistic business queries about Japanese
 
 ## Notes
 
-This project is part of my data portfolio and reflects my interest in cars, performance data, and SQL analysis. Feedback and suggestions are welcome!
-
-- This dataset focuses on **manual transmission Japanese cars**.
-- Automatic trims are included for reference, but their prices are intentionally left blank as they were not part of the analysis scope.
+- This project reflects my passion for cars, performance specs, and hands-on SQL work.
+- Automatic trims were included for completeness but excluded from core analysis. Their prices were left blank intentionally.
+- Feedback is welcome — this project is part of my evolving data portfolio.
