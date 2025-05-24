@@ -1,5 +1,6 @@
 # Manual Japanese Cars Business Insights (SQL Project)
-8 real-world business questions answered using SQL for a Japanese manual car dealership
+This was my first full SQL project — I cleaned, normalized, and analyzed data about manual Japanese cars to practice real-world skills.  
+I answered 8 real-world business questions using SQL for a Japanese manual car dealership.
 
 ## Project Overview
 
