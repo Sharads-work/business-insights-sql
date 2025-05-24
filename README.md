@@ -46,8 +46,9 @@ To demonstrate SQL proficiency through realistic business queries about Japanese
 ## How to Use
 
 1. Open `original_data.xlsx` to view raw data.
-2. Run `staging_and_normalization.sql` to clean and normalize the dataset.
-3. Use `manual_japanese_cars_queries.sql` to run the business insight queries.
+2. Download `manual_cars_data.csv` to use as the staging dataset for bulk insert.
+3. Run `staging_and_normalization.sql` to clean and normalize the dataset.
+4. Use `manual_japanese_cars_queries.sql` to run the business insight queries.
 
 ## Notes
 
